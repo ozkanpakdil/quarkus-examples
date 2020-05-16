@@ -1,0 +1,1 @@
+keytool -genkey -keyalg RSA -noprompt -alias localhost -dname "CN=localhost, OU=NA, O=NA, L=NA, S=NA, C=NA" -keystore keystore.jks -validity 9999 -storepass changeme -keypass changeme
