@@ -1,0 +1,1 @@
+Example how to start downloading file from reactive rest service.
