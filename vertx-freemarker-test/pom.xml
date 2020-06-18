@@ -73,11 +73,17 @@
       <version>3.9.1</version>
     </dependency>
     <dependency>
+      <groupId>io.smallrye.reactive</groupId>
+      <artifactId>mutiny-rxjava</artifactId>
+      <version>0.5.2</version>
+  </dependency>
+    <dependency>
       <groupId>org.projectlombok</groupId>
       <artifactId>lombok</artifactId>
       <version>${dependency.version.lombok}</version>
       <scope>provided</scope>
     </dependency>
+  
   </dependencies>
   <build>
     <plugins>
