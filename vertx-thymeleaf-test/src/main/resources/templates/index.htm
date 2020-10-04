@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<head th:fragment="headerFragment (pageTitle)">
+  <title th:text="${title}">Template title</title>
+</head>
+<body>
+
+<ul>
+  <th:block th:each="flower : ${request.headers()}">
+      <li th:utext="${flower}">..</li>
+  </th:block>
+</ul>
+
+  <h1 th:text="${title}">ss</h1>
+
+  <p>${exampleObject.name} by ${exampleObject.developer}</p>
+
+  <ul>
+    <#list systems as system>
+      <li>${system_index + 1}. ${system.name} from ${system.developer}</li>
+    </#list>
+  </ul>
+
+</body>
+</html>

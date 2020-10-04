@@ -22,6 +22,7 @@ public class GreetingResource {
     @Inject
     Template index; 
 
+    
     @GET
     @Path("{id}")
     @Produces(MediaType.TEXT_HTML)
@@ -31,7 +32,8 @@ public class GreetingResource {
 
     @GET
     @Produces(MediaType.TEXT_HTML)
-    public TemplateInstance get2() {
+    public TemplateInstance index() {
+
         return index.data("item", service.findItem(null)); 
     }
 
