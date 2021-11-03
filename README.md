@@ -1,1 +1,1 @@
-Quarkus sand box for testing and learning....s
+Quarkus sand box for testing and learning
