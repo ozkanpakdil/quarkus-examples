@@ -1,3 +1,7 @@
+minikube dashboard
+https://stackoverflow.com/a/73806695/175554
+
+
 In application.properties there are variables used by helm to bind kube secrets.
 The final kube file is:
 
