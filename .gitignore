@@ -3,6 +3,7 @@ gradle/
 .vscode
 .settings
 .gradle
+.idea
 bin
 build
 target
